@@ -1,4 +1,5 @@
 import { Link, Head } from '@inertiajs/react';
+import HeroSectonLayout from '@/Layouts/HeroSectionLayout';
 
 export default function Welcome({ auth, laravelVersion, phpVersion }) {
     return (
@@ -34,7 +35,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
 
                 <div className="max-w-7xl mx-auto p-6 lg:p-8">
 
-
+                        <HeroSectonLayout />
 
                 </div>
             </div>
